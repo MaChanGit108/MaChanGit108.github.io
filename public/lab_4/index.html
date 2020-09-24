@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Matthew Chan's Lab 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;600&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <link rel = "stylesheet" href = "style.css"/>
+
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+        <form>
+          <ul class="flex-outer">
+            <li>
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" placeholder="Enter your first name here">
+            </li>
+            <li>
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" placeholder="Enter your last name here">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter your email here">
+            </li>
+            <li>
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" placeholder="Enter your phone here">
+            </li>
+            <li>
+              <label for="text field">Text Field</label>
+              <textarea rows="6" id="text field" placeholder="This is some default message text."></textarea>
+            </li>
+            <li>
+              <p>Age</p>
+              <ul class="flex-inner">
+                <li>
+                  <input type="checkbox" id="eighteen-to-thirtyfive">
+                  <label for="eighteen-to-thirtyfive">18-35</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="thirtyfive-to-fifty">
+                  <label for="thirtyfive-to-fifty">35-50</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="fifty-to-sixtyfive">
+                  <label for="fifty-to-sixtyfive">50-65</label>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button type="submit form">Submit Form</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+  </body>
+</html>
