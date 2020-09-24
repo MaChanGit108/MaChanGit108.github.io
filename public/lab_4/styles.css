@@ -19,7 +19,7 @@ body {
 
 h1, h2, h3 {
     font-family: 'Baloo Tammudu 2', cursive;
-    color: #2a2a2a;
+    color: #ffffff;
 }
 
 h1 {
@@ -36,7 +36,7 @@ h1 {
 }
   
 body > * {
-    background-color: red;
+    background-color: rgba(0, 183, 255, 0.486);
     padding: 1%;
 }
   
@@ -98,7 +98,7 @@ h1 {
 .flex-outer > li > label,
 .flex-outer li p {
     flex: 1 0 125px;
-    max-width: 220px;
+    max-width: 225px;
 }
 
 .flex-outer > li > label + *,
@@ -118,7 +118,7 @@ h1 {
 
 .flex-outer li button {
     margin-left: 0px;
-    padding: 8px 16px;
+    padding: 6px 12px;
     border: none;
     background: #333;
     color: #f2f2f2;
