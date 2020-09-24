@@ -97,13 +97,13 @@ h1 {
 
 .flex-outer > li > label,
 .flex-outer li p {
-    flex: 1 0 120px;
+    flex: 1 0 125px;
     max-width: 220px;
 }
 
 .flex-outer > li > label + *,
 .flex-inner {
-    flex: 1 0 220px;
+    flex: 1 0 225px;
 }
 
 .flex-outer li p {
@@ -117,7 +117,7 @@ h1 {
 }
 
 .flex-outer li button {
-    margin-left: auto;
+    margin-left: 0px;
     padding: 8px 16px;
     border: none;
     background: #333;
@@ -128,5 +128,5 @@ h1 {
 }
 
 .flex-inner li {
-    width: 100px;
+    width: 80px;
 }
