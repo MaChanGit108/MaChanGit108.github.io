@@ -12,7 +12,7 @@ html {
 
 body {
     font: normal 18px/1.5 "Baloo Tammudu 2", "Roboto Condensed", sans-serif;
-    background: #3AAFAB;
+    background: rgba(0, 183, 255, 0.486);
     color: #fff;
     padding: 50px 0;
   }
@@ -36,12 +36,12 @@ h1 {
 }
   
 body > * {
-    background-color: rgba(0, 183, 255, 0.486);
+    /* background-color: rgba(0, 183, 255, 0.486); */
     padding: 1%;
 }
   
 .main, .header, nav, .article, .aside, .footer, section {
-    background-color: rgba(0, 183, 255, 0.486);
+    /* background-color: rgba(0, 183, 255, 0.486); */
     padding: 1%;
 }
   
@@ -70,6 +70,7 @@ h1 {
     margin-left: 0px; 
     max-width: 800px;
     padding: 0px 16px;
+    margin: 0 auto;                 /*added to center form*/
 }
 
 .flex-outer li,
@@ -131,4 +132,9 @@ h1 {
 
 .flex-inner li {
     width: 95px;        /*Changed 80px to 95px width limit*/
+}
+
+.check-box-list-label {
+   text-transform: uppercase;
+
 }
