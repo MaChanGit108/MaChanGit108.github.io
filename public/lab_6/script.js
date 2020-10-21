@@ -34,6 +34,7 @@ document.body.addEventListener('submit', async (e) => {
   })
     .then((fromServer) => fromServer.json())
     .then((fromServer) => {
+      // console.log(fromServer)
       if (document.querySelector('.flex-inner')) {
         document.querySelector('.flex-inner').remove();
       }
@@ -55,7 +56,7 @@ document.body.addEventListener('submit', async (e) => {
         $(ul).append(li);
       });
 
-      // console.log('fromServer', fromServer);
+      console.log('fromServer', fromServer);
     })
     .catch((err) => console.log(err));
 });
