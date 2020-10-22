@@ -41,19 +41,19 @@ document.body.addEventListener('submit', async (e) => {
       const newArr = range(10);
       const newArr2 = newArr.map(() => {
         const number = getRandomIntInclusive(0, 243);
-        return fromServer(number);
+        return fromServer[number];
       });
       
       const reverseList = newArr2.sort((a, b) => sortFunction(b, a, 'name'));
-      const ul = document.createElement('ol');
-      ul.className = 'flex-inner';
-      $('form').prepend(ul);
+      const ol = document.createElement('ol');
+      ol.className = 'flex-inner';
+      $('form').prepend(ol);
 
       reverseList.forEach((el, i) => {
         const li = document.createElement('li');
-        $(li).appened(`<input type="checkbox" value=${el.code} id=${el.code} />`);
-        $(li).append(`<label for=${el.code}>${el.code}</label>`);
-        $(ul).append(li);
+        $(li).append(`<input type="checkbox" value=${el.code} id=${el.code} />`);
+        $(li).append(`<label for=${el.code}>${el.name}</label>`);
+        $(ol).append(li);
       });
 
       console.log('fromServer', fromServer);

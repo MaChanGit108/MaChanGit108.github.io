@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Matthew Chan's Lab 6</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script
@@ -17,26 +17,12 @@
           <h1>Matthew Chan's Lab 6</h1>
         </div>
         <form>
-          <button
-            type="submit"
-            class="submitButton"
-            name="submitButton"
-          >Create A Checklist</button>
+          <button type="submit" class="submitButton" name="submitButton">
+            Create A Checklist
+          </button>
         </form>
       </div>
     </div>
     <script src="script.js"></script>
-    <script>
-      function testFunction() {
-        fetch('/api')
-        .then((response) => response.text())
-        .then((response) => {
-              console.log(response);
-              const elements = document.querySelectorAll('.flex-inner li label')
-              const myCheckbox = document.querySelector('.checkbox-list-label');
-                myCheckbox.textContent = 'Countries';
-              })
-        }
-     </script>
   </body>
 </html>
