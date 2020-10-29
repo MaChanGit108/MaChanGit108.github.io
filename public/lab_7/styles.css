@@ -1,6 +1,6 @@
 /*CSS*/
 body {
-  background: #eee;
+  background: rgb(89, 181, 235);
 }
 
 .wrapper {
@@ -84,7 +84,7 @@ h1 {
   margin: 20px 50px;
   padding: 0 20px;
   min-height: 75px;
-  background-color: rgb(83, 172, 224);
+  background-color: rgb(66, 99, 243);
   color: white;
   display: flex;
   
@@ -98,7 +98,7 @@ h1 {
 }
 
 #chartContainer {
-    background: rgb(71, 112, 202);
+    background: rgb(190, 171, 149);
     border: 2px dotted black;
     border-radius: 4px;
     height: 500px;
